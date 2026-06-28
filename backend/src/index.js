@@ -6,6 +6,7 @@ import condominiumsRoutes from './routes/condominiums.js';
 import techniciansRoutes from './routes/technicians.js';
 import serviceCallsRoutes from './routes/serviceCalls.js';
 import reportsRoutes from './routes/reports.js';
+import categoriesRoutes from './routes/categories.js';
 
 dotenv.config();
 
@@ -22,6 +23,7 @@ app.get('/api/health', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/categories', categoriesRoutes);
 app.use('/api/condominiums', condominiumsRoutes);
 app.use('/api/technicians', techniciansRoutes);
 app.use('/api/service-calls', serviceCallsRoutes);
@@ -43,6 +45,7 @@ app.listen(PORT, () => {
   console.log(`📚 API Documentation:`);
   console.log(`   POST   /api/auth/register`);
   console.log(`   POST   /api/auth/login`);
+  console.log(`   GET    /api/categories`);
   console.log(`   GET    /api/condominiums`);
   console.log(`   GET    /api/condominiums/:id`);
   console.log(`   POST   /api/technicians/:id/assign`);
