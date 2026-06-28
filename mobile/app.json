@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SPH1 Técnico",
+    "slug": "sph1-tecnico",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.sph1.tecnico"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sph1.tecnico",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "sph1",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app precisa acessar suas fotos para enviar evidências dos serviços.",
+          "cameraPermission": "O app precisa acessar a câmera para capturar fotos dos serviços."
+        }
+      ]
+    ]
+  }
+}
