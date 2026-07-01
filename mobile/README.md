@@ -63,7 +63,7 @@ mobile/
 └── index.js               # Entry point
 ```
 
-## 🎯 Funcionalidades
+## 👨‍💼 Funcionalidades
 
 ✅ Login/Registro  
 ✅ Lista de chamados com filtros  

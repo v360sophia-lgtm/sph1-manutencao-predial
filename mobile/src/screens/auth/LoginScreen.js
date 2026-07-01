@@ -58,7 +58,7 @@ export default function LoginScreen({ navigation }) {
         <Text style={styles.label}>Senha</Text>
         <TextInput
           style={styles.input}
-          placeholder="••••••••"
+          placeholder="•••••••••"
           placeholderTextColor="#999"
           value={password}
           onChangeText={setPassword}

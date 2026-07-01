@@ -74,7 +74,7 @@ export default function RegisterScreen({ navigation }) {
         <Text style={styles.label}>Senha</Text>
         <TextInput
           style={styles.input}
-          placeholder="••••••••"
+          placeholder="•••••••••"
           value={password}
           onChangeText={setPassword}
           secureTextEntry
@@ -84,7 +84,7 @@ export default function RegisterScreen({ navigation }) {
         <Text style={styles.label}>Confirmar Senha</Text>
         <TextInput
           style={styles.input}
-          placeholder="••••••••"
+          placeholder="•••••••••"
           value={confirmPassword}
           onChangeText={setConfirmPassword}
           secureTextEntry
